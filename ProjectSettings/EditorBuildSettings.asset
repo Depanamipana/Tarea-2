@@ -10,5 +10,20 @@ EditorBuildSettings:
     guid: 21421c7def1c3524ab4d221d50c73439
   - enabled: 1
     path: Assets/Scenes/level 1.unity
+    guid: 78c09e3ba1c85b144b6711ed16757853
+  - enabled: 1
+    path: Assets/Scenes/Intermedio.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Level 2.unity
+    guid: 1f6cd03665b1c76478d4cd8009916afd
+  - enabled: 1
+    path: Assets/Scenes/Castillo por dentro.unity
+    guid: 91a7a964bccd8bf448858f56c1ce9a35
+  - enabled: 1
+    path: Assets/Scenes/Level 3 (primeros enemigos).unity
+    guid: 85630bc059ff00148ba2c522ae7ba98b
+  - enabled: 1
+    path: Assets/Scenes/GameOverScene.unity
+    guid: 58b10a71c5fb1da4c92dc48073cbd24f
   m_configObjects: {}

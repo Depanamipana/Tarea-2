@@ -18,6 +18,9 @@ public class MovementController : MonoBehaviour
 
     void Start()
     {
+        if(GameManager.Instance != null) { 
+            transform.position = GameManager.Instance.lastCheckpointPosition;
+        }
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         originalMoveSpeed = moveSpeed;
