@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Castillo por dentro.unity
     guid: 91a7a964bccd8bf448858f56c1ce9a35
   - enabled: 1
+    path: Assets/Scenes/Salon del rey.unity
+    guid: 086b5987726a72e48956bbbb2c7e7c4f
+  - enabled: 1
     path: Assets/Scenes/Level 3 (primeros enemigos).unity
     guid: 85630bc059ff00148ba2c522ae7ba98b
   - enabled: 1
