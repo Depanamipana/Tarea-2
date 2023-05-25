@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MovementController : MonoBehaviour
 {
+    [SerializeField] private bool useLastCheck = false;
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private float runSpeed = 10f; // Velocidad de movimiento al correr
     [SerializeField] private float jumpForce = 10f;
@@ -18,7 +19,7 @@ public class MovementController : MonoBehaviour
 
     void Start()
     {
-        if(GameManager.Instance != null) { 
+        if(GameManager.Instance != null && useLastCheck) { 
             transform.position = GameManager.Instance.lastCheckpointPosition;
         }
         rb = GetComponent<Rigidbody2D>();
