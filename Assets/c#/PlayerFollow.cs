@@ -6,9 +6,16 @@ public class PlayerFollow : MonoBehaviour
 {
     public Transform target; // Transform del jugador
     public float followDistance = 5f; // Distancia a partir de la cual el personaje comenzará a seguir al jugador
+    public float attackDistance = 3f; // Distancia a partir de la cual el enemigo activará su animación de ataque
     public float moveSpeed = 5f; // Velocidad de movimiento del personaje
 
+    private Animator animator;
     private bool isFacingRight = true; // Indica si el personaje está mirando hacia la derecha
+
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     void Update()
     {
@@ -32,6 +39,20 @@ public class PlayerFollow : MonoBehaviour
 
             // Mover el personaje hacia el jugador
             transform.position += targetDirection * moveSpeed * Time.deltaTime;
+
+            if (distanceToTarget <= attackDistance)
+            {
+                animator.SetBool("IsAttacking", true);
+                // Aquí puedes agregar la lógica adicional para el ataque del enemigo
+            }
+            else
+            {
+                animator.SetBool("IsAttacking", false);
+            }
+        }
+        else
+        {
+            animator.SetBool("IsAttacking", false);
         }
     }
 
@@ -43,4 +64,3 @@ public class PlayerFollow : MonoBehaviour
         transform.localScale = characterScale;
     }
 }
-
