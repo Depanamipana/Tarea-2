@@ -9,11 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Main menu.unity
     guid: 21421c7def1c3524ab4d221d50c73439
   - enabled: 1
-    path: Assets/Scenes/level 1.unity
-    guid: 78c09e3ba1c85b144b6711ed16757853
+    path: Assets/Scenes/Levels.unity
+    guid: f22d2a5638c620a43a370678fadb5e24
   - enabled: 1
-    path: Assets/Scenes/Intermedio.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Level 1.0.unity
+    guid: 082f767d0f0eacd4f80a084d5940cf04
   - enabled: 1
     path: Assets/Scenes/Level 2.unity
     guid: 1f6cd03665b1c76478d4cd8009916afd
@@ -27,9 +27,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 3 (primeros enemigos).unity
     guid: 85630bc059ff00148ba2c522ae7ba98b
   - enabled: 1
-    path: Assets/Scenes/Levels.unity
-    guid: f22d2a5638c620a43a370678fadb5e24
-  - enabled: 1
     path: Assets/Scenes/GameOverScene.unity
     guid: 58b10a71c5fb1da4c92dc48073cbd24f
+  - enabled: 1
+    path: Assets/Scenes/jefe.unity
+    guid: f1779eeccd5877f40929d1c47e24a097
+  - enabled: 1
+    path: Assets/Scenes/Menu final.unity
+    guid: f9c8f7eae31450c4d833a1962b3eb478
+  - enabled: 1
+    path: Assets/Scenes/Level 4.unity
+    guid: c1e596d813c13c842b0da634a1e77870
   m_configObjects: {}
