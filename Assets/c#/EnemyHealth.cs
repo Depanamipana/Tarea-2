@@ -14,11 +14,13 @@ public class EnemyHealth : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
+        /*
         if (collision.gameObject.CompareTag("Player")) // Verificar si la colisión es con el jugador
         {
             // Restar vida al enemigo
             TakeDamage(1); // Puedes ajustar el valor de la cantidad de daño según tus necesidades
         }
+        */
     }
 
     public void TakeDamage(int damage)

@@ -6,7 +6,7 @@ public class DamageTrigger : MonoBehaviour
 {
     public int attackDamage = 10;
 
-    void OnTriggerEnter(Collider hitCollider)
+    void OnTriggerEnter2D(Collider2D hitCollider)
     {
         if (hitCollider.CompareTag("Enemy"))
         {

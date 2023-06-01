@@ -605,7 +605,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5368b76921a05c4da4920e63fc8c7da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firstSceneName: Level 3 (primeros enemigos)
+  firstSceneName: 'Level 3 '
 --- !u!114 &1321731602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -993,7 +993,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5368b76921a05c4da4920e63fc8c7da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firstSceneName: tutorial
+  firstSceneName: Level 1.0
 --- !u!114 &1704576954
 MonoBehaviour:
   m_ObjectHideFlags: 0

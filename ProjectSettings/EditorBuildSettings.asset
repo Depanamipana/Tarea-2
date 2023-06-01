@@ -24,7 +24,13 @@ EditorBuildSettings:
     path: Assets/Scenes/Salon del rey.unity
     guid: 086b5987726a72e48956bbbb2c7e7c4f
   - enabled: 1
-    path: Assets/Scenes/Level 3 (primeros enemigos).unity
+    path: Assets/Scenes/Game over 4.unity
+    guid: df08e010e35b1af408cc668285cd78e3
+  - enabled: 1
+    path: Assets/Scenes/Game over 5.unity
+    guid: 66bf330eff1c39b49bfc3c825583087f
+  - enabled: 1
+    path: Assets/Scenes/Level 3.unity
     guid: 85630bc059ff00148ba2c522ae7ba98b
   - enabled: 1
     path: Assets/Scenes/GameOverScene.unity
